@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("xspy", "for xspy support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("xspy", "enable xspy support", "no");
+
+if (PHP_XSPY != "no") {
+	EXTENSION("xspy", "xspy.c");
+}
+
