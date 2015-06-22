@@ -24,6 +24,3 @@
 		
 	echo "[xspy]
 	extension = xspy.so" >> php.ini
-
-
-* wangrj1981@gmail.com
